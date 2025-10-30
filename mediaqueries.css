@@ -1,0 +1,57 @@
+/* mediaqueries.css */
+
+/* Tablet View (Max 992px) */
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 50px 15px;
+  }
+
+  .hero-section h1 {
+    font-size: 2em;
+  }
+
+  /* Di tablet, ubah grid benefit menjadi 2 kolom */
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile View (Max 768px) */
+@media (max-width: 768px) {
+  /* Container lebih lebar di mobile */
+  .container {
+    width: 95%;
+  }
+
+  /* Ubah Latar Belakang menjadi tumpukan vertikal */
+  .content-body {
+    flex-direction: column;
+  }
+
+  /* Biarkan gambar mengambil lebar penuh di mobile */
+  .image-content {
+    order: -1; /* Pindahkan gambar ke atas */
+    margin-bottom: 20px;
+  }
+
+  /* Ubah navbar menjadi scroll horizontal yang lebih ringkas */
+  #navbar ul {
+    justify-content: start;
+    padding: 0 10px;
+  }
+
+  #navbar ul li a {
+    padding: 10px 12px;
+    font-size: 0.9em;
+  }
+
+  /* Di mobile, ubah grid benefit menjadi 1 kolom */
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Padding Section lebih kecil */
+  .project-section {
+    padding: 25px;
+  }
+}

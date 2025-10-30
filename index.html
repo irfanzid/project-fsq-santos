@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyek FSQ: Pengurangan Reject Box</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <header class="hero-section">
+      <h1>Proyek Food Safety & Quality (FSQ)</h1>
+      <h2>"Pengurangan Reject Balikan Box dari Gudang Barang Jadi"</h2>
+      <p>
+        Inisiatif peningkatan kualitas yang berfokus pada efisiensi operasional
+        dan standar pangan.
+      </p>
+    </header>
+
+    <nav id="navbar">
+      <ul>
+        <li><a href="#latar-belakang">1. Latar Belakang</a></li>
+        <li><a href="#akibat">2. Akibat Reject</a></li>
+        <li><a href="#rootcause">3. Rootcause Analisis</a></li>
+        <li><a href="#solusi">4. Solusi</a></li>
+        <li><a href="#benefit">5. Benefit</a></li>
+        <li><a href="#kesimpulan">6. Kesimpulan</a></li>
+        <li><a href="#perbaikan">7. Perbaikan Lanjutan</a></li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <section id="latar-belakang" class="project-section">
+        <h3>1. Latar Belakang</h3>
+        <p>
+          <strong>Permasalahan:</strong> Tingginya tingkat reject box yang
+          dikembalikan dari gudang barang jadi menunjukkan adanya inefisiensi
+          dan risiko terhadap kualitas pengemasan. Peningkatan kualitas adalah
+          kunci untuk mempertahankan standar Food Safety.
+        </p>
+        <div class="content-body">
+          <div class="text-content">
+            <p>
+              Dalam kurun waktu 5 bulan, kami mencatat 20 box yang harus
+              direpackaging atau dibuang. Dari data tersebut diperoleh
+              penyumbang terbesar reject tersebut adalah tidak ada isolasi
+              sebesar <strong>55%</strong> dari total reject box
+            </p>
+          </div>
+          <div class="image-content">
+            <img
+              src="./img/dataReject.png"
+              alt="Grafik Tingkat Reject Bulanan"
+            />
+            <p class="caption">
+              Grafik 1: Data Reject Balikan Box (Unit/Bulan)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="akibat" class="project-section">
+        <h3>2. Akibat Terjadinya Reject</h3>
+        <ul class="list-impact">
+          <div>
+            <li>Kerugian material (waste) dan biaya <i>re-packaging</i>.</li>
+            <div class="image-content" style="width: 20%; min-width: 300px">
+              <img src="img/barang not oke.png" alt="barang not oke" />
+            </div>
+          </div>
+          <div>
+            <li>Penurunan efisiensi waktu kerja operasional.</li>
+            <div class="image-content" style="width: 80vw; min-width: 300px">
+              <img src="img/kompal.png" alt="kompal" />
+            </div>
+          </div>
+          <div>
+            <li>
+              Risiko penurunan kualitas dan citra produk di mata konsumen.
+            </li>
+            <div class="image-content" style="width: 20%; min-width: 300px">
+              <img src="img/lolos.png" alt="lolos" />
+            </div>
+          </div>
+          <div>
+            <li>Memperpanjang proses pengiriman barang jadi ke distributor.</li>
+            <div class="image-content" style="width: 80vw; min-width: 300px">
+              <img src="img/alur reject.png" alt="alur reject" />
+            </div>
+          </div>
+        </ul>
+      </section>
+
+      <section id="rootcause" class="project-section">
+        <h3>3. Rootcause Analisis (Analisis Akar Masalah)</h3>
+        <div class="image-content" style="width: 80vw">
+          <img src="./img/fishbone.png" alt="fishbone" />
+        </div>
+        <p>
+          Melalui analisis <b>Fishbone Diagram</b>, akar masalah utama
+          teridentifikasi pada:
+        </p>
+        <ul>
+          <li>
+            <b>Manusia (Man)</b>: Kurangnya awareness support terhadap standar
+            pengemasan akhir.
+          </li>
+          <li><b>Mesin (Machine):</b> Pisau dan roller mesin kotor.</li>
+        </ul>
+      </section>
+
+      <section id="solusi" class="project-section">
+        <h3>4. Solusi Implementasi</h3>
+        <ol class="list-solution">
+          <li>
+            <b>Pelatihan Intensif:</b> Memberikan <b>refresher training</b> pada
+            tim <b>support</b> mengenai intruksi kerja pengoperasian dan
+            pembersihan <i>carton selaer</i>.
+            <div
+              class="image-content"
+              style="
+                width: 20%;
+                min-width: 300px;
+                border: 2px #ffb300 solid;
+                margin-top: 10px;
+              "
+            >
+              <img src="img/briefing.png" alt="briefing" />
+            </div>
+          </li>
+          <li>
+            <b>Modifikasi Mesin:</b> Menambah sensor warna untuk mendeteksi
+            Isolasi pada box.
+            <div
+              class="image-content"
+              style="
+                width: 20%;
+                min-width: 300px;
+                border: 2px #ffb300 solid;
+                margin-top: 10px;
+              "
+            >
+              <img src="img/wiringDiagram.png" alt="wiringDiagram" />
+              <img src="img/trialSensor.jpg" alt="trialSensor" />
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="benefit" class="project-section">
+        <h3>5. Benefit (Keuntungan)</h3>
+        <div class="benefits-grid">
+          <div>
+            <h4>Kualitas & Keamanan</h4>
+            <p>
+              Penurunan risiko kontaminasi dan peningkatan integritas kemasan.
+            </p>
+          </div>
+          <div>
+            <h4>Cost</h4>
+            <p>
+              Penghematan biaya waste karton, plastic wrapping, plastik kemasan.
+            </p>
+          </div>
+          <div>
+            <h4>Delivery</h4>
+            <p>
+              Pengurangan <b>downtime</b> yang disebabkan oleh *re-packaging*
+              box reject.
+            </p>
+          </div>
+          <div>
+            <h4>Delivery</h4>
+            <p>
+              Meningkatkan kondusifitas di area sehingga meningkatkan kenyamanan
+              tenaker dalam bekerja
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="kesimpulan" class="project-section">
+        <h3>6. Kesimpulan</h3>
+        <ul style="list-style-type: none">
+          <li>
+            🔍 Permasalahan: Tingginya reject box akibat tidak adanya isolasi
+            (Okt 2024 – Feb 2025)
+          </li>
+          <li>🎯 Target: Turunkan reject box 50% (Juni – Agustus 2025)</li>
+          <li>
+            ✅ Solusi: Instruksi kerja + refreshment berkala Penerapan mesin
+            pendeteksi isolasi Evaluasi berkala
+          </li>
+          <li>📉 Hasil: Reject box turun 63,63%</li>
+          <li>
+            🎁 Manfaat Utama:
+            <ul style="margin-left: 5%">
+              <li>Perbaikan Qualitas Box Barang Jadi Pengurangan</li>
+              <li>waste (karton, plastik, motion and transportasi)</li>
+              <li>Produktivitas meningkat</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <section id="perbaikan" class="project-section">
+        <h3>7. Perbaikan Berkelanjutan</h3>
+        <p>
+          Untuk menjaga keberlanjutan hasil, kami mengusulkan untuk:
+          <li>
+            Sosialisasi dan refreshment instruksi kerja secara berkala ke
+            seluruh tim Palletizer, termasuk anggota baru.
+          </li>
+          <li>
+            Evaluasi berkala mesin dengan masukan dari tim Palletizer dan
+            support untuk pengembangan lebih optimal
+          </li>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Proyek Improvement FSQ SJA Semarang Powder</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
